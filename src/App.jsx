@@ -4,6 +4,7 @@ import { RouterProvider } from 'react-router-dom'
 import './App.css'
 
 import DarkModeContext from './component/context/DarkModeContext'
+import HomePage from '../pages/HomePage'
 // import Nav from './component/Nav'
 // import Sidebar from './component/Sidebar/Sidebar'
 // import Home from './component/Home'
@@ -18,7 +19,9 @@ function App() {
       <DarkModeContext.Provider>
         <RouterProvider router={router} />
 
+        <HomePage>
 
+        </HomePage>
 
       </DarkModeContext.Provider>
 
